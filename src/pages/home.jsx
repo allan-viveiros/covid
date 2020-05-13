@@ -11,8 +11,8 @@ const Home = () => {
             <div>
                 <section className='gridtemplate'>
                     <div className='banner'>
-                        <div>
-                            <img src="https://eac.int/images/COVID-19/coronavirus-banner.jpg" alt=""/>
+                        <div className="image-banner">
+                            <p> COVID-19 </p>
                         </div>
                     </div>
 

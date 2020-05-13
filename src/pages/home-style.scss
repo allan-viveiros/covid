@@ -7,6 +7,14 @@
     border: 10px solid blue;    
 }
 
+.image-banner {
+    background: url(https://eac.int/images/COVID-19/coronavirus-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
 
 .banner{
     grid-area: banner;
