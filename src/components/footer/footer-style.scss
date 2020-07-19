@@ -1,0 +1,29 @@
+.footer {
+    position: relative;
+    top: calc(100% - 150px);
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin-top: 1rem;
+ 
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    
+
+    .footer-container {
+        height: 110px;
+        width: 100%;
+        background: rgb(0, 63, 134);
+        color: yellow;    
+    }
+
+    .footer-social {
+        height: 40px;
+        width: 100%;
+        background: rgb(2, 25, 51);
+        color: green;
+    }
+}

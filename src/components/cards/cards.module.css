@@ -7,15 +7,15 @@
 }
 
 .infected {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(255, 207, 102, 0.7);
 }
 
 .recovered {
-    border-bottom: 10px solid rgba(0, 255, 55, 0.5);
+    border-bottom: 10px solid rgba(30, 187, 215, 0.7);
 }
 
 .deaths {
-    border-bottom: 10px solid rgba(255, 0, 55, 0.5);
+    border-bottom: 10px solid rgba(244, 67, 54, 0.7);
 }
 
 @media (max-width: 700px) {
@@ -23,5 +23,3 @@
         margin: 2% 0 !important;
     }
 }
-
-

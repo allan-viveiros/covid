@@ -1,43 +1,44 @@
-.gridtemplate{
+.home-div {
+    position: relative;
+    min-height: 100vh;
+}
+.gridtemplate {
     text-align: center;
-    display: grid;
-    grid-template-areas: 
-    'banner banner banner'
-    'cont1 cont2 cont3';
-    border: 10px solid blue;    
+    display: flex;  
+    flex-wrap: wrap;  
+    // border: 10px solid blue;    
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 
-.image-banner {
-    background: url(https://eac.int/images/COVID-19/coronavirus-banner.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+.banner {
+    width: 100%;
+    height: 100%;    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    // border: 5px solid green;
+    //text-align: center;
+    //align-items: center;
+    //align-content: center;
+    //padding-top: 5px;
 
+    //justify-content: center;
+
+    img {
+        //height: 180px;
+        //width: auto;
+        width: 100%;
+        display: block;
+    }    
 }
 
 
-.banner{
-    grid-area: banner;
-}
-
-.content1{
-    grid-area: cont1;
-    
-}
-
-.content2{
-    grid-area: cont2;
-    
-}
-
-.content3{
-    grid-area: cont3;
-    
-}
-
-.content1, .content2, .content3{
+.tips {
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid yellow;   
+    justify-content: space-around;
 }
 

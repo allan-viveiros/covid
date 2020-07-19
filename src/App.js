@@ -2,6 +2,7 @@ import React from 'react';
 
 import Menu from './components/menu/menu';
 import './app-style.css';
+import Footer from './components/footer/footer';
 
 
 class App extends React.Component {   
@@ -10,10 +11,14 @@ class App extends React.Component {
     render() {
       
         return (
-            <div>
+            <div className="main-app">
             
-                <Menu />           
-                
+                <Menu />      
+
+                <div className="main-footer">    
+                    <Footer />
+                </div>
+
             </div>
         )
     }

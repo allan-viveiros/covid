@@ -6,7 +6,7 @@ import './tips-style.scss';
 
 const Tips = () => {
     return(
-        <div>
+        <div className="tips-container">
             <h1> Tips </h1>
             <div className="main-container">           
 
