@@ -1,22 +1,35 @@
 
 .card-box {
     position: relative;
-    max-width: 300px;
-    height: 215px;
+    width: 300px;
+    height: auto;
     background-color: #fff;
-    margin: 40px 10px;
+    margin: 55px 10px;
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;     
+
+    span a {
+        text-decoration: none;
+        font-size: 16px;
+        border-left: rgba(255, 0, 0, 0.5) solid 2px;
+        padding-left: 5px;
+        color: rgb(94, 94, 94);
+    }
+    
+    span a:hover {
+        border-left: red solid 2px;        
+        color: #000;
+    }
 }
 
 .img-box {
     position: relative;
     width: 260px;
-    height: 260px;
-    top: -60px;
+    height: 140px;
+    top: -75px;
     left: 20px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);    
@@ -30,15 +43,21 @@
 
 .content-box {
     position: relative;
-    margin-top: -140px;
+    margin-top: -60px;
     padding: 10px 15px;
     text-align: center;
     color: #111;
-    visibility: hidden;
-    opacity: 0;
+    //visibility: hidden;
+    //opacity: 0;
     transition: 0.3s ease-in-out;
+    text-align: left;
+
+    h2 {
+        text-align: center;
+    }
 }
 
+/*
 .card-box:hover {
     height: 400px;
 
@@ -52,3 +71,4 @@
     }
 }
 
+*/

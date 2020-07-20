@@ -5,7 +5,7 @@ import './footer-style.scss';
 
 const Footer = () => {
     return(
-        <div className="footer">
+        <div>
             <footer>
 
             <div className="footer-container">
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-social">
-                <span>lkasjlsajfskafklsfajjkl </span>
+                <span> &copy;Developed by Allan Viveiros </span>
 
             </div>
             
